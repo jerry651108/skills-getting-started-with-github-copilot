@@ -21,6 +21,20 @@ A super simple FastAPI application that allows students to view and sign up for 
    python app.py
    ```
 
+## Running Tests
+
+From the repository root, run:
+
+```
+pytest
+```
+
+The backend tests are in the `tests/` directory and cover current API behavior for:
+- Redirect from `/` to static frontend
+- Listing activities with expected fields
+- Sign up success and validation errors
+- Unregister success and validation errors
+
 3. Open your browser and go to:
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
